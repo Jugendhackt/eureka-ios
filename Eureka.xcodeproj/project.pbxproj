@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2EBF741F91117100F1FC13 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9C2EBF6E1F91117100F1FC13 /* LICENSE */; };
+		9C2EBF751F91117100F1FC13 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EBF6F1F91117100F1FC13 /* README.md */; };
+		9C2EBF761F91117100F1FC13 /* ScreenShot in Resources */ = {isa = PBXBuildFile; fileRef = 9C2EBF701F91117100F1FC13 /* ScreenShot */; };
+		9C2EBF771F91117100F1FC13 /* ZHDropDownMenu in Resources */ = {isa = PBXBuildFile; fileRef = 9C2EBF711F91117100F1FC13 /* ZHDropDownMenu */; };
+		9C2EBF781F91117100F1FC13 /* ZHDropDownMenu-Demo in Resources */ = {isa = PBXBuildFile; fileRef = 9C2EBF721F91117100F1FC13 /* ZHDropDownMenu-Demo */; };
+		9C2EBF791F91117100F1FC13 /* ZHDropDownMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9C2EBF731F91117100F1FC13 /* ZHDropDownMenu.podspec */; };
 		A38361DE1F90B90600731753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38361DD1F90B90600731753 /* AppDelegate.swift */; };
 		A38361E01F90B90600731753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38361DF1F90B90600731753 /* ViewController.swift */; };
 		A38361E31F90B90600731753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38361E11F90B90600731753 /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C2EBF6E1F91117100F1FC13 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../../Downloads/DropDownMenu-master/LICENSE"; sourceTree = "<group>"; };
+		9C2EBF6F1F91117100F1FC13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Downloads/DropDownMenu-master/README.md"; sourceTree = "<group>"; };
+		9C2EBF701F91117100F1FC13 /* ScreenShot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScreenShot; path = "../../../Downloads/DropDownMenu-master/ScreenShot"; sourceTree = "<group>"; };
+		9C2EBF711F91117100F1FC13 /* ZHDropDownMenu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ZHDropDownMenu; path = "../../../Downloads/DropDownMenu-master/ZHDropDownMenu"; sourceTree = "<group>"; };
+		9C2EBF721F91117100F1FC13 /* ZHDropDownMenu-Demo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ZHDropDownMenu-Demo"; path = "../../../Downloads/DropDownMenu-master/ZHDropDownMenu-Demo"; sourceTree = "<group>"; };
+		9C2EBF731F91117100F1FC13 /* ZHDropDownMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZHDropDownMenu.podspec; path = "../../../Downloads/DropDownMenu-master/ZHDropDownMenu.podspec"; sourceTree = "<group>"; };
 		A38361DA1F90B90600731753 /* Eureka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eureka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38361DD1F90B90600731753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38361DF1F90B90600731753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				A38361E91F90B90600731753 /* LaunchScreen.storyboard */,
 				A38361EC1F90B90600731753 /* Info.plist */,
 				A38361E41F90B90600731753 /* Eureka.xcdatamodeld */,
+				9C2EBF6E1F91117100F1FC13 /* LICENSE */,
+				9C2EBF6F1F91117100F1FC13 /* README.md */,
+				9C2EBF701F91117100F1FC13 /* ScreenShot */,
+				9C2EBF711F91117100F1FC13 /* ZHDropDownMenu */,
+				9C2EBF721F91117100F1FC13 /* ZHDropDownMenu-Demo */,
+				9C2EBF731F91117100F1FC13 /* ZHDropDownMenu.podspec */,
 			);
 			path = Eureka;
 			sourceTree = "<group>";
@@ -126,8 +144,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2EBF761F91117100F1FC13 /* ScreenShot in Resources */,
+				9C2EBF781F91117100F1FC13 /* ZHDropDownMenu-Demo in Resources */,
 				A38361EB1F90B90600731753 /* LaunchScreen.storyboard in Resources */,
+				9C2EBF771F91117100F1FC13 /* ZHDropDownMenu in Resources */,
 				A38361E81F90B90600731753 /* Assets.xcassets in Resources */,
+				9C2EBF741F91117100F1FC13 /* LICENSE in Resources */,
+				9C2EBF791F91117100F1FC13 /* ZHDropDownMenu.podspec in Resources */,
 				A38361E31F90B90600731753 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +164,7 @@
 			files = (
 				A38361E61F90B90600731753 /* Eureka.xcdatamodeld in Sources */,
 				A38361E01F90B90600731753 /* ViewController.swift in Sources */,
+				9C2EBF751F91117100F1FC13 /* README.md in Sources */,
 				A38361DE1F90B90600731753 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +327,7 @@
 				A38361F11F90B90600731753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
