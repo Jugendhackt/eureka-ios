@@ -16,7 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let tabBar = UITabBarController()
+        
+        let discoverController = DiscoverViewController()
+        discoverController.tabBarItem = UITabBarItem(title: "Discover", image: UIImage(named: "icons8-Compass-100"), tag: 1)
+        
+        let searchController = SearchViewController()
+        searchController.tabBarItem = UITabBarItem(title: "Search", image: UIImage(named: "icons8-Search-24"), tag: 2)
+        
+        let streamsController = StreamsViewController()
+        streamsController.tabBarItem  = UITabBarItem(title: "Stream", image: UIImage(named: "icons8-Video-Call-24"), tag: 3)
+        
+        let profileController = ProfileViewController()
+        profileController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "icons8-Customer-24"), tag: 4)
+        
+        tabBar.viewControllers = [discoverController, searchController, streamsController, profileController].map { UINavigationController(rootViewController: $0) }
+            
+        window?.rootViewController = tabBar
+        
         return true
     }
 
