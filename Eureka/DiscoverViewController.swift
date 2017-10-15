@@ -134,7 +134,7 @@ class DiscoverViewController: UIViewController {
             
             print(place, creationDateStr, creatorId, id)
             
-            let finalEvent = Event(id: id, creationDate: date, creatorId: creatorId, place: place, activityId: "gerg", time: Date(), lang: "DE")
+            let finalEvent = Event(id: id, creationDate: date!, creatorId: creatorId, place: place, activityId: "gerg", time: Date(), lang: "DE")
             
             return finalEvent
         }

@@ -117,7 +117,12 @@ extension EventComponent: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "event", for: indexPath) as! EventCell
         cell.viewersLabel.text = "20/30"
         cell.placeLabel.text = events[indexPath.row].place
-        cell.timeLabel.text = "5pm, October 15th"
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
+        let date = dateFormatter.string(from: events[indexPath.row].creationDate)
+        
+        cell.timeLabel.text = date
         cell.backgroundColor = .lightGray
         return cell
     }
