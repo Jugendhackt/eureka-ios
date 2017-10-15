@@ -9,6 +9,15 @@
 import UIKit
 
 class CreateEventViewController: UIViewController {
+    
+    let placeField: UITextField = {
+        let tf = UITextField()
+        tf.placeholder = "Type in a place"
+        tf.translatesAutoresizingMaskIntoConstraints = false
+        return tf
+    }()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
